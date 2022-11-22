@@ -35,4 +35,10 @@ if (navigator.serviceWorker) {
     document.getElementById("answer").innerHTML =
       "You can watch a G-rated movie" 
   }
+
+    // process
+    else {
+      document.getElementById("answer").innerHTML =
+        "You are too young" 
+    }
 }
