@@ -24,7 +24,6 @@ function updateSliderValue(valueFromSlider) {
     document.getElementById("answer").innerHTML =
       "You can watch an R-rated movie"
   }
-
   // process
   else if (valueFromSlider >= 13) {
     document.getElementById("answer").innerHTML = "You can watch a PG-13 movie"
@@ -34,7 +33,6 @@ function updateSliderValue(valueFromSlider) {
     document.getElementById("answer").innerHTML =
       "You can watch a G-rated movie"
   }
-
   // process
   else {
     document.getElementById("answer").innerHTML = "You are too young"

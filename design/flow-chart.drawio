@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="JSVg7I8cO8ntkmgvI9-N" name="Page-1">
-        <mxGraphModel dx="594" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="612" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -12,16 +12,14 @@
                         <mxPoint x="310" y="440" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="18" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6" target="23" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="480" y="575" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="44" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="37">
+                <mxCell id="62" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="58">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="input age&lt;br&gt;if age&amp;gt;= 17" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="235" y="500" width="150" height="150" as="geometry"/>
+                    <mxGeometry x="242.5" y="550" width="135" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" style="edgeStyle=none;html=1;" parent="1" source="8" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -32,69 +30,95 @@
                 <mxCell id="12" value="Radio Button input" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="255" y="200" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="6" target="19" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="310" y="830" as="targetPoint"/>
-                        <mxPoint x="310" y="770" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="15" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+                <mxCell id="15" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="260" y="950" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="19" target="15" edge="1">
+                <mxCell id="45" style="edgeStyle=none;html=1;" edge="1" parent="1" source="19" target="15">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="You can watch an R-rated movie" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="770" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="22" value="13-16 years old" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="540" width="105" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="39" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="23" target="31">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="23" value="input age&lt;br&gt;else if age &amp;gt;=13" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="485" y="517.5" width="110" height="115" as="geometry"/>
-                </mxCell>
-                <mxCell id="27" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="23" target="26" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="540" y="770" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="28" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="26" target="15" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry x="250" y="780" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="You can watch a PG-13 Movie" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
-                    <mxGeometry x="465" y="950" width="150" height="60" as="geometry"/>
+                    <mxGeometry x="410" y="780" width="150" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" style="edgeStyle=none;html=1;" edge="1" parent="1" source="31" target="32">
+                <mxCell id="32" value="You can &lt;br&gt;watch a G rated movie" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="780" width="115" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="680" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=none;html=1;" edge="1" parent="1" source="58" target="26">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="input age&amp;nbsp;&lt;br&gt;else if age &amp;gt;=5" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="670" y="512.5" width="110" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="38" style="edgeStyle=none;html=1;" edge="1" parent="1" source="32" target="26">
+                <mxCell id="61" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="58" target="60">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="You can watch a G rated movie" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="670" y="950" width="115" height="60" as="geometry"/>
+                <mxCell id="58" value="if age &amp;gt;= 13" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="552.5" width="125" height="125" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="5-12 years old" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="580" y="535" width="105" height="30" as="geometry"/>
+                <mxCell id="63" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="60" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" style="edgeStyle=none;html=1;entryX=0.41;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="37" target="42">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="110" y="940" as="targetPoint"/>
+                <mxCell id="60" value="if age &amp;gt;= 5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="552.5" width="125" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="Too young" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="750" y="790" width="115" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="60" target="65">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="740" y="630" as="sourcePoint"/>
+                        <mxPoint x="790" y="570" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="820" y="610"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="37" value="input age&lt;br&gt;else&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="515" width="110" height="115" as="geometry"/>
+                <mxCell id="67" value="" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="26" target="15">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="870" as="sourcePoint"/>
+                        <mxPoint x="590" y="820" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="490" y="910"/>
+                            <mxPoint x="485" y="990"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="43" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42" target="15">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="68" value="" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="32">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="870" as="sourcePoint"/>
+                        <mxPoint x="360" y="980" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="680" y="980"/>
+                            <mxPoint x="560" y="990"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="42" value="Too young" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="950" width="120" height="60" as="geometry"/>
+                <mxCell id="69" value="" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="65" target="15">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="870" as="sourcePoint"/>
+                        <mxPoint x="590" y="820" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="820" y="1000"/>
+                            <mxPoint x="740" y="990"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="690" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="680" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="580" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="580" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="580" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
